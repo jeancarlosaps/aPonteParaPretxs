@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F65EBA1228B4510002CF1D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F65EBA0228B450F002CF1D3 /* GoogleService-Info.plist */; };
 		0F7CF1F92284A76A00EC6648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CF1F82284A76A00EC6648 /* AppDelegate.swift */; };
 		0F7CF1FB2284A76A00EC6648 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CF1FA2284A76A00EC6648 /* InitialViewController.swift */; };
 		0F7CF1FE2284A76A00EC6648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CF1FC2284A76A00EC6648 /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		0F7CF2032284A76D00EC6648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CF2012284A76D00EC6648 /* LaunchScreen.storyboard */; };
 		0F9C082122860C8400382E1A /* UIButton+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C082022860C8400382E1A /* UIButton+extensions.swift */; };
 		0F9C082522861ED500382E1A /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 0F9C082422861ED500382E1A /* Montserrat */; };
+		229D165C25D9FBE20A055A0E /* Pods_conexaoUbuntu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CCFCE987B45AD83B9A0FD2 /* Pods_conexaoUbuntu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F65EBA0228B450F002CF1D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F7CF1F52284A76A00EC6648 /* conexaoUbuntu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conexaoUbuntu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7CF1F82284A76A00EC6648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F7CF1FA2284A76A00EC6648 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		0F7CF2042284A76D00EC6648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9C082022860C8400382E1A /* UIButton+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+extensions.swift"; sourceTree = "<group>"; };
 		0F9C082422861ED500382E1A /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		2E470FC651CD179B3C97B0EA /* Pods-conexaoUbuntu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-conexaoUbuntu.debug.xcconfig"; path = "Target Support Files/Pods-conexaoUbuntu/Pods-conexaoUbuntu.debug.xcconfig"; sourceTree = "<group>"; };
+		68CCFCE987B45AD83B9A0FD2 /* Pods_conexaoUbuntu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_conexaoUbuntu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F768873CAF95A12BB2A5C1DD /* Pods-conexaoUbuntu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-conexaoUbuntu.release.xcconfig"; path = "Target Support Files/Pods-conexaoUbuntu/Pods-conexaoUbuntu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229D165C25D9FBE20A055A0E /* Pods_conexaoUbuntu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				0F7CF1F72284A76A00EC6648 /* conexaoUbuntu */,
 				0F7CF1F62284A76A00EC6648 /* Products */,
+				2A84AB6806A0CCAA384CA247 /* Pods */,
+				7451801683B2DA9A1EC6B46D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +75,7 @@
 				0F7CF1FF2284A76D00EC6648 /* Assets.xcassets */,
 				0F7CF2012284A76D00EC6648 /* LaunchScreen.storyboard */,
 				0F7CF2042284A76D00EC6648 /* Info.plist */,
+				0F65EBA0228B450F002CF1D3 /* GoogleService-Info.plist */,
 			);
 			path = conexaoUbuntu;
 			sourceTree = "<group>";
@@ -78,6 +88,24 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		2A84AB6806A0CCAA384CA247 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E470FC651CD179B3C97B0EA /* Pods-conexaoUbuntu.debug.xcconfig */,
+				F768873CAF95A12BB2A5C1DD /* Pods-conexaoUbuntu.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7451801683B2DA9A1EC6B46D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68CCFCE987B45AD83B9A0FD2 /* Pods_conexaoUbuntu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F7CF2072284A76D00EC6648 /* Build configuration list for PBXNativeTarget "conexaoUbuntu" */;
 			buildPhases = (
+				67B57D7A914224596A0E45F8 /* [CP] Check Pods Manifest.lock */,
 				0F7CF1F12284A76A00EC6648 /* Sources */,
 				0F7CF1F22284A76A00EC6648 /* Frameworks */,
 				0F7CF1F32284A76A00EC6648 /* Resources */,
+				2E53B1E58030AC851A1805A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,12 +168,62 @@
 			files = (
 				0F7CF2032284A76D00EC6648 /* LaunchScreen.storyboard in Resources */,
 				0F9C082522861ED500382E1A /* Montserrat in Resources */,
+				0F65EBA1228B4510002CF1D3 /* GoogleService-Info.plist in Resources */,
 				0F7CF2002284A76D00EC6648 /* Assets.xcassets in Resources */,
 				0F7CF1FE2284A76A00EC6648 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E53B1E58030AC851A1805A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-conexaoUbuntu/Pods-conexaoUbuntu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-conexaoUbuntu/Pods-conexaoUbuntu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B57D7A914224596A0E45F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-conexaoUbuntu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F7CF1F12284A76A00EC6648 /* Sources */ = {
@@ -296,6 +376,7 @@
 		};
 		0F7CF2082284A76D00EC6648 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E470FC651CD179B3C97B0EA /* Pods-conexaoUbuntu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +395,7 @@
 		};
 		0F7CF2092284A76D00EC6648 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F768873CAF95A12BB2A5C1DD /* Pods-conexaoUbuntu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
