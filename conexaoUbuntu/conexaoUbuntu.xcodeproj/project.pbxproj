@@ -15,6 +15,7 @@
 		0F7CF2032284A76D00EC6648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CF2012284A76D00EC6648 /* LaunchScreen.storyboard */; };
 		0F9C082122860C8400382E1A /* UIButton+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C082022860C8400382E1A /* UIButton+extensions.swift */; };
 		0F9C082522861ED500382E1A /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 0F9C082422861ED500382E1A /* Montserrat */; };
+		0FA33FCF228C4A0100F4FBF0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA33FCE228C4A0100F4FBF0 /* SignInViewController.swift */; };
 		229D165C25D9FBE20A055A0E /* Pods_conexaoUbuntu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CCFCE987B45AD83B9A0FD2 /* Pods_conexaoUbuntu.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		0F7CF2042284A76D00EC6648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9C082022860C8400382E1A /* UIButton+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+extensions.swift"; sourceTree = "<group>"; };
 		0F9C082422861ED500382E1A /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		0FA33FCE228C4A0100F4FBF0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2E470FC651CD179B3C97B0EA /* Pods-conexaoUbuntu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-conexaoUbuntu.debug.xcconfig"; path = "Target Support Files/Pods-conexaoUbuntu/Pods-conexaoUbuntu.debug.xcconfig"; sourceTree = "<group>"; };
 		68CCFCE987B45AD83B9A0FD2 /* Pods_conexaoUbuntu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_conexaoUbuntu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F768873CAF95A12BB2A5C1DD /* Pods-conexaoUbuntu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-conexaoUbuntu.release.xcconfig"; path = "Target Support Files/Pods-conexaoUbuntu/Pods-conexaoUbuntu.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				0F7CF1F82284A76A00EC6648 /* AppDelegate.swift */,
 				0F7CF1FA2284A76A00EC6648 /* InitialViewController.swift */,
 				0F7CF1FC2284A76A00EC6648 /* Main.storyboard */,
+				0FA33FCE228C4A0100F4FBF0 /* SignInViewController.swift */,
 				0F9C082022860C8400382E1A /* UIButton+extensions.swift */,
 				0F7CF1FF2284A76D00EC6648 /* Assets.xcassets */,
 				0F7CF2012284A76D00EC6648 /* LaunchScreen.storyboard */,
@@ -94,7 +97,6 @@
 				2E470FC651CD179B3C97B0EA /* Pods-conexaoUbuntu.debug.xcconfig */,
 				F768873CAF95A12BB2A5C1DD /* Pods-conexaoUbuntu.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -230,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA33FCF228C4A0100F4FBF0 /* SignInViewController.swift in Sources */,
 				0F9C082122860C8400382E1A /* UIButton+extensions.swift in Sources */,
 				0F7CF1FB2284A76A00EC6648 /* InitialViewController.swift in Sources */,
 				0F7CF1F92284A76A00EC6648 /* AppDelegate.swift in Sources */,
