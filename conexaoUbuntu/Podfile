@@ -8,5 +8,7 @@ target 'conexaoUbuntu' do
   # Pods for conexaoUbuntu
 
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Alamofire'
 
 end
